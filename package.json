@@ -31,7 +31,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@riovir/wc-fontawesome": "^0.1.6",
-    "@skhemata/skhemata-base": "^1.0.5",
+    "@skhemata/skhemata-base": "^1.1.0",
     "@storybook/addon-controls": "^6.3.0",
     "lit-element": "^2.5.1",
     "lit-html": "^2.0.0-rc.3"
