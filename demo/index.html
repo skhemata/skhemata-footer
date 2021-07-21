@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import '../dist/skhemata-footer.js';
+
+    const configData = {
+      title: 'Get Started',
+      subtitle: 'Ready to',
+      button: {
+        label: 'GET STARTED',
+        link: "#"
+      },
+      copyright: '© 2021 Thrinacia Inc. All Rights Reserved.',
+      menus: [
+        {
+          title: 'Menu Title',
+          submenu: [{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' }]
+        },
+        {
+          title: 'Menu Title',
+          submenu: [{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' }]
+        },
+        {
+          title: 'Menu Title',
+          submenu: [{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' }]
+        },
+        {
+          title: 'Menu Title',
+          submenu: [{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' },{ label: 'Label Name', link: '#' }]
+        }
+      ],
+      socialMedia:
+      [{ type: 'twitter', link: '#' }, { type: 'linkedin', link: '#' }, { type: 'facebook', link: '#' },{ type: 'instagram', link: '#' }]
+    }
+
+    render(
+      html`
+        <skhemata-footer config-data=${JSON.stringify(configData)}></skhemata-footer>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
