@@ -121,6 +121,11 @@ export default {
         )}"></skhemata-footer>`,
       },
     },
+    widgetCode: `
+      <skhemata-footer config-data='{"title":"Get Started","subtitle":"Ready to","button":{"label":"GET STARTED","link":"#"},"copyright":"© 2021 Thrinacia Inc. All Rights Reserved.","menus":[{"title":"Menu Title","submenu":[{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"}]},{"title":"Menu Title","submenu":[{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"}]},{"title":"Menu Title","submenu":[{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"}]},{"title":"Menu Title","submenu":[{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"},{"label":"Label Name","link":"#"}]}],"socialMedia":[{"type":"twitter","link":"#"},{"type":"linkedin","link":"#"},{"type":"facebook","link":"#"},{"type":"instagram","link":"#"}]}'></skhemata-footer>
+
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@skhemata/skhemata-footer@latest/build/index.js"></script> 
+    `,
   },
 };
 
